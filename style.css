@@ -19,6 +19,9 @@ a, li{
 
 body{
     margin: 0;
+    background-color: whitesmoke;
+    background-image: url(images/colorpattern.jpg);
+    
     
 }
 
@@ -38,16 +41,66 @@ body{
     font-weight: lighter;
     
 }
-.main_wrapper{
-    background-color: whitesmoke;
-    background-image: url(images/colorpattern.jpg);
-    background-size: cover;
-
+.main_text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 2rem;
 }
+
+
 .splide{
-    max-width: 1000px;
-    height: 600px;
-    overflow:hidden
+    width: 1200px;
+    padding-top: 200px;
+    margin-left: 350px;
+    margin-right: 300px;
+    overflow:hidden;
+    
 
 }
-    
+.danger{
+    width: 600px;
+    height: 600px;
+
+ 
+}
+.danger_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.p_danger{
+    color: white;
+    font-size: large;
+}
+.industry_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.industry{
+    width: 800px;
+    height: 600px; 
+}
+.p_industry{
+    color: white;
+    font-size: large;
+}
+.bones_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.bones{
+    width: 550px;
+    height: 600px; 
+    padding-bottom: 100px;
+}
+.p_bones{
+    color: white;
+    font-size: large;
+}
