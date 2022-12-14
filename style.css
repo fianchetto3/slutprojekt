@@ -1,0 +1,30 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px ;
+    
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+.nav_header{
+ background-image: url(images/skulls.png);
+ background-size: cover;
+ 
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
