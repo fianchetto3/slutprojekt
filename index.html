@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orebro Street Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-skyblue.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -22,30 +23,40 @@
 
      </nav>
     </header>
-   <main>
-    <div class="container">
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <p></p>
-            <img src="" alt="">
-            <img src="" alt="">
+   <main class="main_wrapper">
 
+
+
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"> <img src="images/wow.png" alt=""></li>
+                  <li class="splide__slide"><img src="images/wow3.png" alt=""></li>
+                  <li class="splide__slide"><img src="images/bones2.png" alt=""></li>
+              </ul>
         </div>
-    
+      </div>
 
 
 
-              <div class="slide">
-
-             </div>
-
-    </div>
 
 
-    <div>
-        
-    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+        var splide = new Splide( '.splide', {
+        type  : 'fade',
+        rewind: true,
+        } );
+
+        splide.mount();
+      </script>
+
    </main>
 
 

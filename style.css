@@ -38,3 +38,16 @@ body{
     font-weight: lighter;
     
 }
+.main_wrapper{
+    background-color: whitesmoke;
+    background-image: url(images/colorpattern.jpg);
+    background-size: cover;
+
+}
+.splide{
+    max-width: 1000px;
+    height: 600px;
+    overflow:hidden
+
+}
+    
