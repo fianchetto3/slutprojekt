@@ -19,12 +19,14 @@ a, li{
 
 body{
     margin: 0;
+    
 }
 
 .nav_header{
- background-image: url(images/skulls.png);
- background-size: cover;
+
  
+ background-image: url(images/skulls-2.png);
+ background-size: cover;
  padding-top: 100px;
  padding-bottom: 100px;
 }
