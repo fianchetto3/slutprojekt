@@ -104,3 +104,13 @@ body{
     color: white;
     font-size: large;
 }
+footer{
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer_nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
